@@ -380,7 +380,7 @@ h1{
 }
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
-  height: 50px;
+  height: 900px;
   display: table;
   width: 100%;
 }
@@ -613,9 +613,6 @@ form label {
   width: 70px;
   height: 70px;
   text-align: center;
-  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
   margin-bottom: 30px;
 }
 #gtco-counter .icon i {
@@ -680,7 +677,7 @@ form label {
 .feature-center .icon {
   width: 90px;
   height: 90px;
-  background: #efefef;
+  background: transparent;
   display: table;
   text-align: center;
   margin: 0 auto 30px auto;
@@ -779,7 +776,7 @@ form label {
 }
 
 #gtco-testimonial {
-  background: #efefef;
+  background: #ffffff00;
 }
 #gtco-testimonial .testimony-slide {
   text-align: center;
@@ -799,11 +796,7 @@ form label {
   *display: inline;
 }
 #gtco-testimonial .testimony-slide figure img {
-  width: 90px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  width: 600px;
 }
 #gtco-testimonial .testimony-slide blockquote {
   border: none;
@@ -878,12 +871,12 @@ form label {
 .gtco-tabs .gtco-tab-content-wrap {
   clear: both;
   position: relative;
-  top: 70px;
+  top: 0px;
 }
 .gtco-tabs .gtco-tab-content-wrap .tab-content {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0px;
   width: 100%;
   opacity: 0;
   visibility: hidden;
@@ -1463,4 +1456,72 @@ form label {
   background-position: center;
   width: auto;
   height: 3em;
+}
+
+
+
+.caract1{
+  background-image: url(../images/galeria_1.jpg);
+  background-position-x: 80%;
+}
+
+.caract1{
+  background-image: url(../images/galeria_1.jpg);
+  background-position-x: 80%;
+}
+
+.caractfoto{
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px #754C24 solid; border-radius: 35px;
+
+  -webkit-box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
+-moz-box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
+box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
+
+}
+
+.bgformis{  
+  background-image: url(../images/formis1.svg), url(../images/formis2.svg) !important;
+  background-repeat: no-repeat !important;
+ /* background-position: left, right !important; */
+  background-position-x: -70%, 200% !important;
+ /* background-size: initial, 600% !important; */
+}
+
+.bgredondito{ 
+  background-color: #FCF7E3;
+  border-radius: 8em;
+  border: 2px #754C24 solid;
+}
+
+.bgonditaslocas{
+  background-color: #FCF7E3; 
+  background-image: url(../images/ondita.svg);
+  background-repeat: no-repeat;
+  background-position: bottom !important;
+  background-size: 100%, cover !important;
+}
+
+.img-wrap{
+  background-image: url(../images/misc.svg);
+  background-repeat: no-repeat;
+  background-position-y: 70%;
+  background-size: 130%;
+}
+
+.img-cover > img{
+  width: auto;
+  height: 700px !important;
+  margin: auto;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  0% {
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
 }
