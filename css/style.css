@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #52d3aa;
+  color: #A67C52;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #52d3aa;
+  color: #A67C52;
   outline: none;
   text-decoration: none;
 }
@@ -78,17 +78,17 @@ h1{
 
 ::-webkit-selection {
   color: #fff;
-  background: #52d3aa;
+  background: #A67C52;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #52d3aa;
+  background: #A67C52;
 }
 
 ::selection {
   color: #fff;
-  background: #52d3aa;
+  background: #A67C52;
 }
 
 .gtco-container {
@@ -114,7 +114,7 @@ h1{
   }
 }
 .gtco-nav #gtco-logo {
-  font-size: 22px;
+  
   margin: 0pt;
   padding: 1pt;
   text-transform: uppercase;
@@ -211,7 +211,7 @@ h1{
   color: 534741;
 }
 .gtco-nav ul li.btn-cta a {
-  color: #52d3aa;
+  color: #A67C52;
 }
 .gtco-nav ul li.btn-cta a span {
   background: #fff;
@@ -260,19 +260,17 @@ h1{
 
 .foto-wrap{
   width: auto;
-  height: 750px;
-  align-content: center;
-  text-align: right;
+  height: 500px;
   position: relative;
 }
 
 .foto-l{  
-  margin-left: -90px;
+  margin-left: -15vw;
 }
 
 
 .foto-r{  
-  margin-right: -10550px;
+  margin-right: -25vw;
 }
 
 .gtco-bg2 {
@@ -352,7 +350,7 @@ h1{
 }
 
 .gtco-cover {
-  height: 900px;
+  height: 1100px;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -375,7 +373,7 @@ h1{
 }
 @media screen and (max-width: 768px) {
   .gtco-cover {
-    height: 600px;
+    height: 700px;
   }
 }
 .gtco-cover .display-t,
@@ -400,7 +398,7 @@ h1{
 }
 .gtco-cover.gtco-cover-sm .display-t,
 .gtco-cover.gtco-cover-sm .display-tc {
-  height: 600px;
+  height: 700px;
   display: table;
   width: 100%;
 }
@@ -411,7 +409,7 @@ h1{
   }
 }
 
-#gtco-counter {
+.gtco-counter {
   height: 600px;
 }
 
@@ -419,12 +417,12 @@ h1{
 #gtco-counter .display-tc {
   height: 300px;
   display: table;
-  width: 100%;
-}
+  margin: auto;}
 @media screen and (max-width: 768px) {
   #gtco-counter {
     height: inherit;
-    padding: 7em 0;
+    padding: 5.3em 0;
+    padding-top:4em;
   }
   #gtco-counter .display-t,
   #gtco-counter .display-tc {
@@ -476,7 +474,7 @@ h1{
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #52d3aa;
+  color: #A67C52;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -495,7 +493,7 @@ h1{
   position: relative;
 }
 .gtco-contact-info ul li:before {
-  color: #52d3aa;
+  color: #A67C52;
   position: absolute;
   left: 0;
   top: .05em;
@@ -544,7 +542,7 @@ form label {
 .gtco-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  color: A67C52e;
+  color: #A67C52;
   text-transform: uppercase;
 }
 #gtco-header .display-tc h1,
@@ -611,12 +609,21 @@ form label {
 }
 #gtco-counter .icon {
   width: 70px;
-  height: 70px;
+  height: auto;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
   text-align: center;
   margin-bottom: 30px;
 }
+
+.icon img{
+  width: 100%;
+  height: auto;
+}
+
 #gtco-counter .icon i {
-  height: 70px;
+  height: 80px;
 }
 #gtco-counter .icon i:before {
   display: block;
@@ -692,7 +699,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #52d3aa;
+  color: #A67C52;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -708,6 +715,7 @@ form label {
   width: 100%;
   margin-bottom: 30px;
   position: relative;
+  
 }
 .feature-left:last-child {
   margin-bottom: 0;
@@ -737,7 +745,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #52d3aa;
+  color: #A67C52;
 }
 .feature-left .feature-copy {
   float: left;
@@ -776,7 +784,7 @@ form label {
 }
 
 #gtco-testimonial {
-  background: #ffffff00;
+  
 }
 #gtco-testimonial .testimony-slide {
   text-align: center;
@@ -830,7 +838,7 @@ form label {
   padding: 3px;
   float: left;
   width: 100%;
-  background: #FCF7E3
+  background: #FCF7E3;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -901,7 +909,7 @@ form label {
   }
 }
 .gtco-tabs .icon-xlg i {
-  color: #52d3aa;
+  color: #A67C52;
 }
 
 #gtco-started {
@@ -947,7 +955,7 @@ form label {
 #gtco-started .btn {
   height: 54px;
   border: none !important;
-  background: #52d3aa;
+  background: #A67C52;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -967,6 +975,10 @@ form label {
 }
 #gtco-started .gtco-heading h2 {
   margin-bottom: 0;
+}
+
+#gtco-footer{  
+  background-color: #fcf7e3;
 }
 
 #gtco-footer .gtco-footer-links {
@@ -1005,19 +1017,27 @@ form label {
 #gtco-footer .copyright .block {
   display: block;
 }
+.owl-dots{
+  align-content: center;
+  justify-content: center;
+  align-items: middle;
+}
+
 
 .owl-carousel .owl-controls .owl-dot span {
-  background: #e6e6e6;
+  background: #f8d2ad;
 }
 .owl-carousel .owl-controls .owl-dot span:hover, .owl-carousel .owl-controls .owl-dot span:focus {
-  background: #cccccc;
+  background: #f8d2ad;
 }
 .owl-carousel .owl-controls .owl-dot:hover span, .owl-carousel .owl-controls .owl-dot:focus span {
-  background: #cccccc;
+  background: #f8d2ad;
 }
 .owl-carousel .owl-controls .owl-dot.active span {
-  background: transparent;
-  border: 2px solid #52d3aa;
+  background: #b3effa;
+  width:15px;
+  height:15px;
+  /*border: 2px solid #A67C52;*/
 }
 
 #gtco-offcanvas {
@@ -1180,10 +1200,11 @@ form label {
 }
 .gtco-nav-toggle.gtco-nav-white > i {
   color: #fff;
-  background: #fff;
+  background: #a67c52;
 }
 .gtco-nav-toggle.gtco-nav-white > i::before, .gtco-nav-toggle.gtco-nav-white > i::after {
-  background: #fff;
+
+  background: #a67c52;
 }
 
 .gtco-nav-toggle i::before {
@@ -1274,9 +1295,9 @@ form label {
 }
 
 .btn-primary {
-  background: #52d3aa;
+  background: #A67C52;
   color: #fff;
-  border: 2px solid #52d3aa;
+  border: 2px solid #A67C52;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #66d8b4 !important;
@@ -1284,11 +1305,11 @@ form label {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #52d3aa;
-  border: 2px solid #52d3aa;
+  color: #A67C52;
+  border: 2px solid #A67C52;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #52d3aa;
+  background: #A67C52;
   color: #fff;
 }
 
@@ -1418,7 +1439,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #52d3aa;
+  border-color: #A67C52;
 }
 
 .row-pb-md {
@@ -1449,13 +1470,14 @@ form label {
 
 
 
-.Logo{
+.logo{
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: fill;
+  background-position: left;
   width: auto;
-  height: 3em;
+  height: 4em;
+  margin-left: 30px;
 }
 
 
@@ -1474,25 +1496,32 @@ form label {
   height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px #754C24 solid; border-radius: 35px;
+  border: 2px #754C24 solid; 
+  border-radius: 35px;
 
   -webkit-box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
--moz-box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
-box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
+  -moz-box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
+  box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
 
 }
 
 .bgformis{  
   background-image: url(../images/formis1.svg), url(../images/formis2.svg) !important;
   background-repeat: no-repeat !important;
- /* background-position: left, right !important; */
-  background-position-x: -70%, 200% !important;
- /* background-size: initial, 600% !important; */
+  background-position-x: -50vw, 75vw; 
+  background-position-y: bottom center;
+  background-size:  80vw;
+  /*background-position-x: -650px, 1400px;*/
+  /*background-position-x: -70%, 200% !important;*/
+
 }
+
+
 
 .bgredondito{ 
   background-color: #FCF7E3;
   border-radius: 8em;
+  padding: 4em 3em 2em;
   border: 2px #754C24 solid;
 }
 
@@ -1512,8 +1541,9 @@ box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
 }
 
 .img-cover > img{
-  width: auto;
-  height: 700px !important;
+  max-height: 700px;
+  width: 100%;
+  height: auto;
   margin: auto;
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -1524,4 +1554,197 @@ box-shadow: -23px -18px 0px -4px rgba(179,239,250,1);
   100%{
     transform: translateY(-10px);
   }
+}
+
+
+.ban-premium{
+  background-image:url(../images/premium.png);
+  height: 450px !important;
+  background-size: 100%;
+  background-repeat: repeat;
+  animation: side-loop 5s linear infinite !important;   
+  background-position: left;
+
+}
+
+@keyframes side-loop{
+  0%{
+    background-position-x: left;
+  }
+
+  100%{
+    background-position-x: right;
+  }
+}
+
+
+/* ---- RESPONSIVE ---- */
+
+@media screen and (max-width: 1200px){
+
+  .gtco-counter{
+    height: 450px;
+  }
+  
+  .foto-wrap  {
+    height: 40vw;
+  }
+
+  .foto-l{  
+    margin-left: -15vw;
+  }
+  
+  .foto-r{   
+    margin-right: -50vw;
+  }
+  
+  .gtco-cover.bgonditaslocas{
+    height: 1100px;
+  }
+  .padding-flex{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+}
+
+
+@media screen and (max-width: 992px){
+  
+  /*Arreglar gtco counter aca*/
+
+  .foto-wrap{
+    height: 75vw;    
+    }
+    
+  .foto-l{  
+    margin:auto;
+  }
+  
+  .foto-r{  
+    height: 60vw;   
+    margin:auto;
+  }
+    .img-cover{
+      text-align: center;
+      align-items: center;
+      align-content: baseline;
+    }
+
+    .img-cover img{
+    }    
+  
+  
+  .img-wrap  {
+    margin-top: -45vw;  
+    padding-left: 40vw;
+  }
+
+  .padding-flex{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .gtco-cover.bgonditaslocas{
+    height: 1500px;
+  }
+
+  .gtco-tabs{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .caractfoto{
+    margin-bottom: 1em;
+  }
+
+  .bgformis{
+    background-position-x: -60vw, 70vw; 
+    background-size:  90vw;
+  }
+  
+  .ban-premium{
+    margin-top: 250px;
+  }
+
+  
+  .gtco-counter{
+    height: 700px;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 768px){
+  
+  .ban-premium{
+    margin-top: 280px;
+  }
+
+  .foto-wrap{
+    height: 75vw;    
+    }
+    
+  .foto-l{  
+    margin:auto;
+  }
+  
+  .foto-r{  
+    height: 60vw;   
+    margin:auto;
+  }
+
+  .img-wrap  {
+    margin-top: -22.9vw;  
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .gtco-cover.bgonditaslocas{
+    height: 1400px !important;
+  }
+}
+
+
+
+@media screen and (max-width: 576px){
+
+  .ban-premium{
+    margin-top: 280px;
+  }
+
+  .foto-wrap{
+    height: 75vw;    
+    }
+    
+  .foto-l{  
+    margin:auto;
+  }
+  
+  .foto-r{  
+    height: 60vw;   
+    margin:auto;
+  }
+
+
+  .display-tc{
+    width:80%;
+  }
+
+  .bgredondito{
+    margin-left: 30px
+  }
+  
+  .gtco-cover.bgonditaslocas{
+    height: 1200px !important;
+  }
+  .bgformis{
+    background-position-x: -60vw, 70vw; 
+    background-size: 100vw;
+  }
+  
+  .gtco-tab-nav{
+    font-size: 3vw;
+  } 
 }
