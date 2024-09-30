@@ -1487,10 +1487,21 @@ form label {
   background-position-x: 80%;
 }
 
-.caract1{
-  background-image: url(../images/galeria_1.jpg);
-  background-position-x: 80%;
+.caract2{
+  background-image: url(../images/galeria2.jpg);
+  background-position-x: 40%;
 }
+
+.caract3{
+  background-image: url(../images/galeria3.jpg);
+  background-position-x: 0%;
+}
+
+.caract4{
+  background-image: url(../images/galeria2.jpg);
+  background-position-x: 0%;
+}
+
 
 .caractfoto{
   height: 350px;
